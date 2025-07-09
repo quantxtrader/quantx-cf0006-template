@@ -1,0 +1,55 @@
+---
+repository_metadata:
+  name: "quantx-cf0006-template"
+  type: "TEMPLATE"
+  classification: "CF00.06_COMPLIANT_TEMPLATE"
+  authority_level: "[GUIDE::TEMPLATE]"
+  status: "[STATUS::ACTIVE]"
+  created_date: "2025-07-09"
+  cf_version: "CF00.06_v1.1"
+  template_id: "TEMPLATE-CF0006-2025-001"
+
+compliance_metadata:
+  cf0006_compliant: true
+  finma_ready: true
+  audit_ready: true
+  directory_structure: "CANONICAL"
+  naming_conventions: "CF00.06_v1.1"
+  metadata_framework: "COMPLETE"
+  validation_tools: "INTEGRATED"
+
+template_metadata:
+  purpose: "CF00.06 compliant repository template for new quantX projects"
+  target_users: "quantX development teams and project managers"
+  setup_automation: "cf0006_setup_script.sh"
+  validation_integration: "GitHub Actions workflows included"
+  documentation_level: "COMPREHENSIVE"
+
+integration_metadata:
+  quantx_compliance: "Constitutional framework integration"
+  quantx_tools: "Validation tools integration"
+  quantx_shared_workflows: "Reusable workflows integration"
+  github_template: "Native GitHub template repository"
+---
+
+# Repository Metadata
+
+This file contains metadata about the quantx-cf0006-template repository, ensuring proper classification and integration within the quantX ecosystem.
+
+## Template Purpose
+
+This template repository provides a ready-to-use foundation for creating new CF00.06-compliant repositories within the quantX organization.
+
+## Usage
+
+1. Use this template to create new repositories
+2. Run the setup script to configure CF00.06 compliance
+3. Customize for your specific project needs
+4. Maintain CF00.06 compliance through automated validation
+
+## Compliance Status
+
+- ✅ CF00.06 v1.1 Compliant
+- ✅ FINMA Ready
+- ✅ Audit Ready
+- ✅ Automated Validation
